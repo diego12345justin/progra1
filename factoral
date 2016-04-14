@@ -1,0 +1,27 @@
+// factorals.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include<iostream> 
+#include"conio.h"
+using namespace std;
+void main()
+
+
+
+{
+	int a,b,i,s=1;
+
+	do {
+
+		cout <<"ingrese el numero :";
+	    cin>>a;
+	}
+	  
+	while (a<0);
+	  for (i=1;i<=a;i++)
+      s=s*i;
+	  cout<<"el resultado es ";
+	  cout<<s;
+	 getch(); 
+} 
