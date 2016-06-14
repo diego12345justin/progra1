@@ -1,0 +1,41 @@
+
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std; 
+
+int suma(int a, int b)
+	{
+	int resultado;
+   resultado=a+b;
+  return (resultado);
+}
+int resta(int a,int b)
+{
+	int resultado;
+  resultado=a-b;
+  return (resultado);
+}
+void main()
+{
+	int a,b,c,d,x1,x2,x;
+	cout<<"ingrese primer numero a ";
+	cin>>a;
+	cout<<"ingrese segundo numero b";
+	cin>>b;
+	cout<<"ingrese tercer numero c";
+	cin>>c;
+	cout<<"ingrese cuarto numero d ";
+	cin>>d;
+
+	x1= suma(a,b);
+	x2= resta(c,d);
+
+	x= x1+x2;
+
+	cout<<"el resultado es"<<x;
+
+	getch();
+}
